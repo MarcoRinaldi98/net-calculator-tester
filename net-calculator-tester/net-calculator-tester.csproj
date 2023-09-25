@@ -8,8 +8,4 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\CalculatorTestProject\CalculatorTestProject.csproj" />
-  </ItemGroup>
-
 </Project>

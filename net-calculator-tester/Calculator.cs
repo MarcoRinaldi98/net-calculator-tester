@@ -8,11 +8,13 @@ namespace net_calculator_tester
 {
     public static class Calculator
     {
+        // Metodo per sommare due numeri
         public static float Add(float num1, float num2) 
         { 
             return num1 + num2; 
         }
 
+        // Metodo per sottrarre due numeri
         public static float Subtract(float num1, float num2) 
         { 
             if (num1 > num2)
@@ -24,6 +26,7 @@ namespace net_calculator_tester
             }
         }
 
+        // Metodo per dividere due numeri
         public static float Divide(float num1, float num2)
         {
             if (num1 == 0 || num2 == 0)
@@ -36,6 +39,7 @@ namespace net_calculator_tester
             }
         }
 
+        // Metodo per moltiplicare due numeri
         public static float Multiply(float num1, float num2) 
         { 
             return num1 * num2; 
