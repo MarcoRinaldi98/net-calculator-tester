@@ -31,11 +31,14 @@ namespace net_calculator_tester
         {
             if (num1 == 0 || num2 == 0)
             {
-                return 0;
+                throw new DivideByZeroException();
             }
-            else
+            else if (num1 > 0) 
             {
                 return num1 / num2;
+            } else
+            {
+                return num2 / num1;
             }
         }
 

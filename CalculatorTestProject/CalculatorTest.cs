@@ -42,7 +42,7 @@ namespace CalculatorTestProject
         // Test funzione Divide del Calculator con uno dei parametri a 0
         public void DivideZeroTest()
         {
-            Assert.That(Calculator.Divide(6, 0), Is.EqualTo(0));
+            Assert.Throws<DivideByZeroException>(() => Calculator.Divide(6, 0));
         }
 
         [Test]
