@@ -3,9 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "net-calculator-tester", "net-calculator-tester\net-calculator-tester.csproj", "{3F77C9A5-4F97-4E85-970E-143315F0C892}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "net-calculator-tester", "net-calculator-tester\net-calculator-tester.csproj", "{3F77C9A5-4F97-4E85-970E-143315F0C892}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorTestProject", "CalculatorTestProject\CalculatorTestProject.csproj", "{756B9D25-039B-457E-A491-04DEAA54E6D8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalculatorTestProject", "CalculatorTestProject\CalculatorTestProject.csproj", "{756B9D25-039B-457E-A491-04DEAA54E6D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElencoTelefonico", "ElencoTelefonico\ElencoTelefonico.csproj", "{0FC11EF9-BC32-4A30-B45F-9B79D6E2E4AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElencoTelefonicoTestProject", "ElencoTelefonicoTestProject\ElencoTelefonicoTestProject.csproj", "{9CEAB3EB-3209-4EC3-A393-1F839D611443}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{756B9D25-039B-457E-A491-04DEAA54E6D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{756B9D25-039B-457E-A491-04DEAA54E6D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{756B9D25-039B-457E-A491-04DEAA54E6D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FC11EF9-BC32-4A30-B45F-9B79D6E2E4AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FC11EF9-BC32-4A30-B45F-9B79D6E2E4AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FC11EF9-BC32-4A30-B45F-9B79D6E2E4AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FC11EF9-BC32-4A30-B45F-9B79D6E2E4AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CEAB3EB-3209-4EC3-A393-1F839D611443}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CEAB3EB-3209-4EC3-A393-1F839D611443}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CEAB3EB-3209-4EC3-A393-1F839D611443}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CEAB3EB-3209-4EC3-A393-1F839D611443}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
