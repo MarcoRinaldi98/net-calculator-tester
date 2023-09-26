@@ -10,10 +10,11 @@ namespace CalculatorTestProject
         }
 
         [Test]
-        // Test funzione Add del Calculator
-        public void AddTest()
+        [TestCase(2, 3, 5)]
+        // Test funzione Add del Calculator con TestCase
+        public void AddTest(float num1, float num2, float result)
         {
-            Assert.That(Calculator.Add(2, 3), Is.EqualTo(5));
+            Assert.That(Calculator.Add(num1, num2), Is.EqualTo(result));
         }
 
         [Test]
